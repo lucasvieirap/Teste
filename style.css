@@ -10,7 +10,6 @@
     position: relative;
 }
 
-
 .headerwrapper {
     width: 100%;
     min-height: 100vh;
@@ -203,7 +202,7 @@ ul {
     margin-left: 50px;
 }
 
-.title {
+.abt-content {
     display: flex;
     flex-direction: column;
     margin: auto;
@@ -223,10 +222,10 @@ ul {
         margin: auto;
         margin-bottom: 10px;
     }
-    .title, p, h2 {
+    .abt-content, p, h2 {
         margin: 15px;
     }
-    .title {
+    .abt-content {
         height: 400px;
     }
 }
@@ -234,5 +233,72 @@ ul {
 @media(max-width: 350px) {
     #abouts p {
         font-size: 10px;
+       }
+}
+
+hr {
+    width: 95%;
+    margin: auto;
+}
+
+.title {
+    display: block;
+    width: 100%;
+    height: 2vh;
+    text-align: center;
+    margin-top: 55px;
+}
+
+#dwnl-content {
+    display: flex;
+    flex-direction: row;
+    min-height: 50vh;
+    width: 1095px;
+    margin: auto;
+}
+
+#download {
+    width: 500px;
+    padding: 15px;
+    margin-top: 15px;
+}
+
+#download ul {
+    display: flex;
+    flex-direction: column;
+}
+
+#download legend {
+    margin: 5px;
+}
+
+#dwnl-text {
+    width: 500px;
+    padding: 15px;
+    margin-top: 15px;
+}
+
+#dwnl-text legend{
+    margin: 5px;
+}
+
+fieldset {
+    padding: 15px;
+    width: 500px;
+    height: 270px;
+}
+
+.note {
+    margin-top: 15px;
+}
+
+/* TODO: adicionar box-shadow */
+
+@media (max-width: 1100px) {
+    #dwnl-content {
+        display: flex;
+        flex-direction: column;
+        width: 570px;
+        margin: auto;
     }
 }

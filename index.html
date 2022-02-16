@@ -35,29 +35,50 @@
                         <h1>ABOUT</h1>
                         <div id="abouts">
                             <div id="about1">
-                                <div class="title"><h2>Lorem</h2>
+                                <div class="abt-content"><h2>Lorem</h2>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                                 </div>
                             </div>
                             <div id="about2">
-                                <div class="title"><h2>Ipsum</h2>
+                                <div class="abt-content"><h2>Ipsum</h2>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </section>
+                <hr>
                 <section id="Downloads">
-                
+                    <div id="downloadswrapper">
+                        <div class="title"><h1>Downloads</h1></div>
+                        <div id="dwnl-content">
+                            <div id="download">
+                                <fieldset>
+                                    <legend>Downloads</legend>
+                                    <ul>
+                                        <li><a href="Downloads/SourceCode.py" download>Source Code</a></li>
+                                        <li><a href="Downloads/Game.rar" download>Binary Of The Game</a></li>
+                                    </ul>
+                                    <p class="note">Nota: o jogo pode não funcionar corretamente</p>
+                                </fieldset>
+                            </div>
+                            <div id="dwnl-text">
+                                <fieldset>
+                                    <legend>Lorem Ipsum</legend>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                </fieldset>
+                            </div>
+                        </div>
+                    </div> 
                 </section>
                 <section id="MyDiscord">
                 
                 </section>
             </main>
             <footer>
-                
+            
             </footer>
-    
+
             <script>
                 var menu = document.querySelector("#navdir");
                 var barra = document.querySelector(".fa-bars");
@@ -67,12 +88,12 @@
                     barra.classList.toggle("active");
                     menu.classList.toggle("active");
                     botaofecha.classList.toggle("active");
-                })
+                });
                 botaofecha.addEventListener("click", () => {
                     barra.classList.remove("active");
                     menu.classList.remove("active");
                     botaofecha.classList.toggle("active");
-                })
+                });
             </script>
         </div>
     </body>
