@@ -5,6 +5,10 @@
     font-weight: 200;
 }
 
+body {
+    overflow-x: hidden;   
+}
+
 .headerwrapper {
     width: 100%;
     min-height: 100vh;
