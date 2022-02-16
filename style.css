@@ -298,7 +298,12 @@ fieldset {
     #dwnl-content {
         display: flex;
         flex-direction: column;
-        width: 570px;
+        width: 470px;
         margin: auto;
+    }
+    fieldset {
+        padding: 15px;
+        width: 400px;
+        height: 320px;
     }
 }
