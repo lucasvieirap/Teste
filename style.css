@@ -3,6 +3,7 @@
     padding: 0px;
     font-family: poppins;
     font-weight: 200;
+    overflow-x: hidden;
 }
 
 body {
