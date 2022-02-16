@@ -7,7 +7,7 @@
 
 #bodywrapper {
     overflow-x: hidden;
-    position: absolute;
+    position: relative;
 }
 
 .headerwrapper {
