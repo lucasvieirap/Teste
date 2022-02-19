@@ -307,3 +307,15 @@ fieldset {
         height: 420px;
     }
 }
+
+footer {
+    margin-top: 25px;
+    padding: 15px;
+    background-color: black;
+}
+
+footer p {
+    font-size: 15px;
+    color: white;
+    text-align: center;
+}
